@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>TendiTech — Security Practices</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="TendiTech home">
+        <img src="/assets/logo-on-dark.png" alt="TendiTech logo" class="brand-logo" />
+      </a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a class="btn btn-sm" href="/privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h2>Security Practices (summary)</h2>
+      <p class="sub">
+        High-level overview intended for early due diligence. Additional details can be provided under NDA during onboarding.
+      </p>
+
+      <div class="grid-2">
+        <div class="panel">
+          <p><strong>Design principles</strong></p>
+          <div class="list">
+            <div class="li"><span class="dot"></span><strong>Least privilege</strong> access and role separation</div>
+            <div class="li"><span class="dot"></span><strong>Encryption</strong> in transit and at rest (where applicable)</div>
+            <div class="li"><span class="dot"></span><strong>Auditability</strong> (defensible trails and change history)</div>
+            <div class="li"><span class="dot"></span><strong>Data minimization</strong> and privacy-by-design</div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <p><strong>Operational mindset</strong></p>
+          <div class="list">
+            <div class="li"><span class="dot"></span>Security controls should be measurable and evidence-driven</div>
+            <div class="li"><span class="dot"></span>Reduce attack surface and unnecessary integrations</div>
+            <div class="li"><span class="dot"></span>Prefer disciplined configurations over “security theater”</div>
+            <div class="li"><span class="dot"></span>Continuous improvement as beta partners provide feedback</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" style="margin-top:14px;">
+        <p class="muted">
+          For security inquiries: <a href="mailto:security@tenditech.com">security@tenditech.com</a>
+        </p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
